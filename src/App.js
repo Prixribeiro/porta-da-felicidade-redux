@@ -3,7 +3,7 @@ import { Provider } from "react-redux";
 import store from './store';
 
 import Feed from './components/Feed';
-import FortuneCookie from './components/FortuneCookie';
+import LuckyDoor from './components/LuckyDoor';
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
     <main>
       <Provider store={ store }>
            <Feed />
-           <FortuneCookie />
+           <LuckyDoor />
       </Provider>
     </main>
     </div>

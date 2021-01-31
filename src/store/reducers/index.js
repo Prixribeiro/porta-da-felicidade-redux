@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux'
 
-import fortuneCookie from './reducerFortuneCookie'
+import luckydoor from './reducerLuckyDoor'
 
 export default combineReducers({
     //  Nosso reducer é colocado dentro de um objeto
-    fortuneCookie, 
+    luckydoor, 
 })

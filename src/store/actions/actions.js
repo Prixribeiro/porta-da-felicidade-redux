@@ -1,7 +1,7 @@
 
-export function addFortuneCookie(fortuneCookie) {
+export function addLuckyDoor(luckydoor) {
   return {
     type: "ADD_COOKIE",
-    fortuneCookie,
+    luckydoor,
   };
 }
